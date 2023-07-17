@@ -14,16 +14,16 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 There are two external jars included in this project, both can be found in the lib folder. They are added to classpath during compilation adn runtime.
 
 ## XML-Parsing
+There are two main types of parsers, DOM parsers and SAX parsers.
 
-There are two main types of parsers, DOM parsers and SAX parsers. 
-DOM parsers :
--Javas DOM Parser
--JDOM Parser
--DOM4j Parser
+DOM parsers:
+- Javas DOM Parser
+- JDOM Parser
+- DOM4j Parser
 
 SAX parsers:
--SAX Parser
--StAX Parser
+- SAX Parser
+- StAX Parser
 
 There are some other API's which handle XML Parsing such as JAXB and XSLT API's.
 
