@@ -46,5 +46,5 @@ For detailed documentation of the XPath Language: [Documentation](https://docs.o
 - ./run.sh -jdom -> runs JdomReader.java.
 - ./run.sh -sax -> runs SAXParser.java.
 - ./run.sh -xpath -> runs XPathParser.java with default expression (`//book`).
-- ./run.sh -xpath <Your-Expression> -> runs XPathParser.java with your input expression.
+- ./run.sh -xpath \<Your-Expression\> -> runs XPathParser.java with your input expression.
 
