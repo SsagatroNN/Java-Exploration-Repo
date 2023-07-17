@@ -35,7 +35,7 @@ DOM (Document Object Model) parsers load the entire tree object into memory, i.e
 
 The recommended method by W3C to traverse/ Read nodes from an XML DOM object is using Xpath expressions. XPath stands for XML Path Langauge. It uses the widley uses linux file system paths to identify/find nodes. The langauge can be tested using `src/XPathParser.java` using the following syntax.
 
-    ~~~ ./run -xpath <xpath-expression>
+    ./run -xpath <xpath-expression>
 
 The program will return the Text content of the node/nodes obtained. By default the program will run ```//book``` which will return a nodelist of all books in the xml tree regardless of depth.
 
